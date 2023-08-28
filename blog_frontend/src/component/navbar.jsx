@@ -6,7 +6,6 @@ const Navbar = () =>{
         <>
         <div className='bg-secondary '>
         <ul className="nav justify-content-end nav-underline  mx-5">
-            
             <li className="nav-item">
                 <Link className='nav-link text-light m-2 ' aria-current="page" to="/">Home</Link>
             </li>

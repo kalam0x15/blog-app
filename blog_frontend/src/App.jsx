@@ -5,6 +5,7 @@ import Home from './component/home';
 import About from './component/about';
 import Articles from './component/articles';
 import Addblog from './component/addblog';
+import Editdata from './component/editdata';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Route path='/About' element={<About/>}/>
       <Route path='/Addblog' element={<Addblog/>}/>
       <Route path={'/Article/:id'} element={<Articles/>}/>
+      <Route path='/Editdata/:id' element={<Editdata/>}/>
     </Routes>
 
     </>
